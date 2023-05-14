@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -115,6 +124,14 @@ body {
     width: 35px;
 }
 
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
 /* Buttons */
 
 .btn--cta {
@@ -136,4 +153,17 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+/* page header */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+
 }
